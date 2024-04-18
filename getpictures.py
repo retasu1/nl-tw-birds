@@ -81,8 +81,12 @@ def addCC():
 
 #getPhotoURL(apiKey, "Green+Sandpiper")
 
+
 #addPhotoURL()
 
-addCC()
+#addCC()
+
+#note!! because of line 37, if this is run, it will replace manually linked birds with '' which is not what we want!!! 
+#I will probably only fix it when I update this website much later in the future.
 
 
