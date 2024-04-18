@@ -1,15 +1,24 @@
+:root {
+    --clr-darkest: #030100;
+    --clr-background: #282422;
+    --clr-lightest: #FFFEFE;
+    --clr-grey: #877B7B;
+    --clr-brown: #866259;
+    --clr-beige: #E5D5B6;
+}
 html {
     padding: 1em;
-    background-color: #2A1D15;
+    color: var(--clr-darkest);
+    background-color: var(--clr-background);
     font-family: Arial, Helvetica, sans-serif;
 }
 
-h1, .intro {
-    color: white;
+h3, p {
+    font-size: 1.2em;
 }
 
-h2 {
-    margin: 0;
+.intro {
+    color: var(--clr-lightest);
 }
 
 .bird-list {
@@ -21,8 +30,16 @@ h2 {
 }
 
 .bird {
-    background-color: white;
-    color: #2A1D15;
+    background-color: var(--clr-lightest);
+    border-radius: 12px;
+}
+
+.scientific-name {
+    margin: 0.2em;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 300;
+    text-align: center;
 }
 
 figure {
@@ -31,11 +48,48 @@ figure {
 
 .birdImg {
     display: inline-block;
-    height: 12em;
+    height: 15em;
     width: 100%;
     object-fit: cover;
 }
 
-.birdNames {
-    padding: 1em;
+figcaption {
+    font-size: 0.85em;
+    margin: 0 8px;
+    color: var(--clr-grey);
+}
+
+figcaption a {
+    color: var(--clr-grey);
+}
+
+.birdNameList {
+    padding: 8px;
+}
+
+.birdName {
+    display: flex;
+    align-items: center;
+}
+
+.birdName h3 {
+    margin: 0;
+}
+
+.fluent--checkbox-checked-24-filled {
+  display: inline-block;
+  width: 1.5em;
+  height: 1.5em;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%236ECE76' d='M6.25 3A3.25 3.25 0 0 0 3 6.25v11.5A3.25 3.25 0 0 0 6.25 21h11.5A3.25 3.25 0 0 0 21 17.75V6.25A3.25 3.25 0 0 0 17.75 3zm11.03 6.28l-6.754 6.747a.75.75 0 0 1-1.06 0L6.72 13.28a.75.75 0 0 1 1.06-1.06l2.217 2.216l6.223-6.217a.75.75 0 1 1 1.06 1.062'/%3E%3C/svg%3E");
+}
+
+.fluent--checkbox-unchecked-24-regular {
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='black' d='M3 6.25A3.25 3.25 0 0 1 6.25 3h11.5A3.25 3.25 0 0 1 21 6.25v11.5A3.25 3.25 0 0 1 17.75 21H6.25A3.25 3.25 0 0 1 3 17.75zM6.25 4.5A1.75 1.75 0 0 0 4.5 6.25v11.5c0 .966.784 1.75 1.75 1.75h11.5a1.75 1.75 0 0 0 1.75-1.75V6.25a1.75 1.75 0 0 0-1.75-1.75z'/%3E%3C/svg%3E");
 }
