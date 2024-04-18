@@ -21,6 +21,16 @@ h3, p {
     color: var(--clr-lightest);
 }
 
+.introLink {
+    padding: 4px;
+    color: var(--clr-lightest);
+}
+
+.introLink:hover {
+    color: var(--clr-background);
+    background-color: var(--clr-beige);
+}
+
 .bird-list {
     padding-top: 1em;
     display: grid;
