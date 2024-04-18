@@ -44,12 +44,9 @@ data.map((bird) => {
         }
 
         license = `<a href=${licenseDict[numStr]["url"]} target="_blank">${licenseDict[numStr]["name"]}</a>`
-        console.log(license)
+        //console.log(license)
         return license
     }
-
-    console.log()
-    console.log(getLicense('2'))
 
     let newDiv = document.createElement("div");
     newDiv.className = "bird";
