@@ -6,22 +6,6 @@ const frame = document.getElementById('bird-list');
 data.map((bird) => {
     //console.log(bird);
 
-    function seenClass(bool) {
-        if (bool) {
-            return 'seen'
-        } else {
-            return 'unseen'
-        }
-    }
-
-    function seenEmoji(bool) {
-        if (bool) {
-            return 'seen! ✅'
-        } else {
-            return 'still looking 👀'
-        }
-    }
-
     function seenIcon(bool) {
         if (bool) {
             return '<span class="fluent--checkbox-checked-24-filled"></span>'
@@ -29,6 +13,39 @@ data.map((bird) => {
             return '<span class="fluent--checkbox-unchecked-24-regular"></span>'
         }
     }
+
+    function getLicense(numStr) {
+        let license = ''
+        var licenseDict = {
+            '1': {
+                "name": "CC by-nc-sa 2.0",
+                "url": "https://creativecommons.org/licenses/by-nc-sa/2.0/"
+            },
+            '2': {
+                "name": "CC by-nc 2.0",
+                "url": "https://creativecommons.org/licenses/by-nc/2.0/"
+            },
+            '4': {
+                "name": "CC by 2.0",
+                "url": "https://creativecommons.org/licenses/by/2.0/"
+            },
+            '9': {
+                "name": "CC0 by 2.0",
+                "url": "https://creativecommons.org/publicdomain/zero/1.0/"
+            },
+            '10': {
+                "name": "PDM by 2.0",
+                "url": "https://creativecommons.org/publicdomain/mark/1.0/"
+            }
+        }
+
+        license = `<a href=${licenseDict[numStr]["url"]} target="_blank">${licenseDict[numStr]["name"]}</a>`
+        console.log(license)
+        return license
+    }
+
+    console.log()
+    console.log(getLicense('2'))
 
     let newDiv = document.createElement("div");
     newDiv.className = "bird";
@@ -38,7 +55,7 @@ data.map((bird) => {
         
         <figure>
             <a href="${bird.photo.photoLink}" target="_blank"><img src="${bird.photo.photoURL}" alt="${bird.English}" class="birdImg"></a>
-            <figcaption>Photo by ${bird.photo.photoOwner}, licensed under <a href="https://creativecommons.org/licenses/by/2.0/" target="_blank">CC By 2.0</a></figcaption>
+            <figcaption>Photo by ${bird.photo.photoOwner}, licensed under ${getLicense(bird.photo.license)}</figcaption>
         </figure>
 
         <div class="birdNameList">
