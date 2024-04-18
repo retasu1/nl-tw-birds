@@ -69,7 +69,20 @@ def addPhotoURL():
     with open('birdlist.json', 'w', encoding='utf-8') as f:
         json.dump(data, f, indent=2, ensure_ascii=False)
 
+def addCC():
+    with open('birdlist.json', 'r', encoding='utf-8') as f:
+        data = json.load(f)
+
+    for bird in data:
+        bird['photo']['license'] = '4'
+
+    with open('birdlist.json', 'w', encoding='utf-8') as f:
+        json.dump(data, f, indent=2, ensure_ascii=False) 
+
 #getPhotoURL(apiKey, "Green+Sandpiper")
 
-addPhotoURL()
+#addPhotoURL()
+
+addCC()
+
 
