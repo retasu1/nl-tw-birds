@@ -17,6 +17,10 @@ data.map((bird) => {
     function getLicense(numStr) {
         let license = ''
         var licenseDict = {
+            '':{
+                "name":'',
+                "url":''
+            },
             '1': {
                 "name": "CC by-nc-sa 2.0",
                 "url": "https://creativecommons.org/licenses/by-nc-sa/2.0/"
@@ -34,7 +38,7 @@ data.map((bird) => {
                 "url": "https://creativecommons.org/publicdomain/zero/1.0/"
             },
             '10': {
-                "name": "PDM by 2.0",
+                "name": "PDM by 1.0",
                 "url": "https://creativecommons.org/publicdomain/mark/1.0/"
             }
         }
