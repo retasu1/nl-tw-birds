@@ -64,8 +64,6 @@ h3, p {
 .bird {
     background-color: var(--clr-lightest);
     border-radius: 12px;
-    display: grid;
-
 }
 
 .scientific-name {
@@ -99,7 +97,6 @@ figcaption a {
 
 .birdNameList {
     margin: 8px;
-    align-self: end;
 }
 
 .birdName {
