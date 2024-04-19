@@ -10,7 +10,7 @@ html {
     padding: 1em;
     color: var(--clr-darkest);
     background-color: var(--clr-background);
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, 'Microsoft JhengHei', '微軟正黑體', 'PingFang', '蘋方', sans-serif;
 }
 
 h3, p {
@@ -64,6 +64,8 @@ h3, p {
 .bird {
     background-color: var(--clr-lightest);
     border-radius: 12px;
+    display: grid;
+
 }
 
 .scientific-name {
@@ -96,7 +98,8 @@ figcaption a {
 }
 
 .birdNameList {
-    padding: 8px;
+    margin: 8px;
+    align-self: end;
 }
 
 .birdName {
@@ -106,6 +109,7 @@ figcaption a {
 
 .birdName h3 {
     margin: 0;
+    font-weight: 300;
 }
 
 .fluent--checkbox-checked-24-filled {
