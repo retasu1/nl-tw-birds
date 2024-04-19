@@ -21,14 +21,18 @@ h3, p {
     color: var(--clr-lightest);
 }
 
-.introLink {
-    padding: 4px;
+.intro > a {
+
     color: var(--clr-lightest);
 }
 
-.introLink:hover {
+.intro > a:hover {
     color: var(--clr-background);
     background-color: var(--clr-beige);
+}
+
+.introLink {
+    padding: 4px;
 }
 
 .bird-list {
