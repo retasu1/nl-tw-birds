@@ -2668,7 +2668,7 @@
     "Alternative scientific name": "",
     "Notes": "",
     "seenIn": {
-      "nl": false,
+      "nl": true,
       "tw": false,
       "else": false
     },
@@ -2929,7 +2929,7 @@
     "Notes": "",
     "seenIn": {
       "nl": false,
-      "tw": false,
+      "tw": true,
       "else": false
     },
     "photo": {
@@ -4048,7 +4048,7 @@
     "Alternative scientific name": "",
     "Notes": "",
     "seenIn": {
-      "nl": false,
+      "nl": true,
       "tw": false,
       "else": false
     },
@@ -4770,7 +4770,7 @@
     "seenIn": {
       "nl": false,
       "tw": false,
-      "else": true
+      "else": false
     },
     "photo": {
       "photoURL": "https://live.staticflickr.com/65535/53642528112_9624ddf64d.jpg",
@@ -4788,7 +4788,7 @@
     "Alternative scientific name": "",
     "Notes": "",
     "seenIn": {
-      "nl": false,
+      "nl": true,
       "tw": false,
       "else": false
     },
@@ -5088,7 +5088,7 @@
     "Alternative scientific name": "",
     "Notes": "",
     "seenIn": {
-      "nl": false,
+      "nl": true,
       "tw": false,
       "else": false
     },
