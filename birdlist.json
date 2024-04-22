@@ -20,6 +20,26 @@
     }
   },
   {
+    "Dutch": "Kleine Zwaan",
+    "English": "Bewick’s Swan",
+    "Chinese": "小天鵝",
+    "Scientific": "Cygnus bewickii",
+    "Alternative name": "",
+    "Alternative scientific name": "",
+    "Notes": "",
+    "seenIn": {
+      "nl": false,
+      "tw": false,
+      "else": false
+    },
+    "photo": {
+      "photoURL": "",
+      "photoLink": "",
+      "photoOwner": "",
+      "license": ""
+    }
+  },
+  {
     "Dutch": "Wilde Zwaan",
     "English": "Whooper Swan",
     "Chinese": "黃嘴天鵝",
@@ -1620,6 +1640,26 @@
     }
   },
   {
+    "Dutch": "Woestijnplevier",
+    "English": "Greater Sand Plover",
+    "Chinese": "鐵嘴鴴",
+    "Scientific": "Anarhynchus leschenaultii",
+    "Alternative name": "",
+    "Alternative scientific name": "Charadrius leschenaultii",
+    "Notes": "",
+    "seenIn": {
+      "nl": false,
+      "tw": false,
+      "else": false
+    },
+    "photo": {
+      "photoURL": "",
+      "photoLink": "",
+      "photoOwner": "",
+      "license": ""
+    }
+  },
+  {
     "Dutch": "Strandplevier",
     "English": "Kentish Plover",
     "Chinese": "東方環頸鴴",
@@ -2617,6 +2657,46 @@
       "photoLink": "http://flickr.com/photos/145017110@N03/51263780636",
       "photoOwner": "Texas Sea Grant",
       "license": "4"
+    }
+  },
+  {
+    "Dutch": "Franklins Meeuw",
+    "English": "Franklin’s Gull",
+    "Chinese": "弗氏鷗",
+    "Scientific": "Larus pipixcan",
+    "Alternative name": "",
+    "Alternative scientific name": "Leucophaeus pipixcan",
+    "Notes": "",
+    "seenIn": {
+      "nl": false,
+      "tw": false,
+      "else": false
+    },
+    "photo": {
+      "photoURL": "",
+      "photoLink": "",
+      "photoOwner": "",
+      "license": ""
+    }
+  },
+  {
+    "Dutch": "Reuzenzwartkopmeeuw",
+    "English": "Pallas’s Gull",
+    "Chinese": "漁鷗",
+    "Scientific": "Larus ichthyaetus",
+    "Alternative name": "",
+    "Alternative scientific name": "Ichthyaetus ichthyaetus",
+    "Notes": "",
+    "seenIn": {
+      "nl": false,
+      "tw": false,
+      "else": false
+    },
+    "photo": {
+      "photoURL": "",
+      "photoLink": "",
+      "photoOwner": "",
+      "license": ""
     }
   },
   {
@@ -4080,6 +4160,26 @@
     }
   },
   {
+    "Dutch": "Braamsluiper",
+    "English": "Western Lesser Whitethroat",
+    "Chinese": "白喉林鶯",
+    "Scientific": "Sylvia curruca",
+    "Alternative name": "Lesser Whitethroat",
+    "Alternative scientific name": "Curruca curruca",
+    "Notes": "",
+    "seenIn": {
+      "nl": false,
+      "tw": false,
+      "else": false
+    },
+    "photo": {
+      "photoURL": "",
+      "photoLink": "",
+      "photoOwner": "",
+      "license": ""
+    }
+  },
+  {
     "Dutch": "Kleine Sprinkhaanzanger",
     "English": "Lanceolated Warbler",
     "Chinese": "矛斑蝗鶯",
@@ -4897,6 +4997,26 @@
       "photoLink": "http://flickr.com/photos/198981757@N08/53620510757",
       "photoOwner": "Donald Davesne",
       "license": "4"
+    }
+  },
+  {
+    "Dutch": "Siberische Waterpieper",
+    "English": "Siberian Buff-bellied Pipit",
+    "Chinese": "黃腹鷚",
+    "Scientific": "Anthus rubescens",
+    "Alternative name": "American Pipit",
+    "Alternative scientific name": "",
+    "Notes": "",
+    "seenIn": {
+      "nl": false,
+      "tw": false,
+      "else": false
+    },
+    "photo": {
+      "photoURL": "",
+      "photoLink": "",
+      "photoOwner": "",
+      "license": ""
     }
   },
   {
