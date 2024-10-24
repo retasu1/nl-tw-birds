@@ -6,11 +6,23 @@
     --clr-brown: #866259;
     --clr-beige: #E5D5B6;
 }
+
+@font-face {
+    font-family: "bopomofo";
+    src: url('../fonts/BpmfZihiSans-Regular.ttf') format('truetype'),
+        local('Microsoft JhengHei'), 
+        local('微軟正黑體'), 
+        local('PingFang'), 
+        local('蘋方');
+    unicode-range: U+4E00-9FFF;
+    font-display: swap;
+}
+
 html {
     padding: 1em;
     color: var(--clr-darkest);
     background-color: var(--clr-background);
-    font-family: Arial, Helvetica, 'Microsoft JhengHei', '微軟正黑體', 'PingFang', '蘋方', sans-serif;
+    font-family: "bopomofo", "Ariel", "Helvetica", sans-serif;
 }
 
 h3, p {
