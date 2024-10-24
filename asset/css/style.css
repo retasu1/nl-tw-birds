@@ -9,20 +9,20 @@
 
 @font-face {
     font-family: "bopomofo";
-    src: url('../fonts/BpmfZihiSans-Regular.ttf') format('truetype'),
-        local('Microsoft JhengHei'), 
-        local('微軟正黑體'), 
-        local('PingFang'), 
-        local('蘋方');
+    src: url('../fonts/BpmfZihiSans-Regular.ttf') format('truetype');
     unicode-range: U+4E00-9FFF;
     font-display: swap;
+}
+
+body {
+    margin: 0;
 }
 
 html {
     padding: 1em;
     color: var(--clr-darkest);
     background-color: var(--clr-background);
-    font-family: "bopomofo", "Ariel", "Helvetica", sans-serif;
+    font-family: "bopomofo", "Ariel", "Helvetica", 'Microsoft JhengHei', '微軟正黑體', 'PingFang', '蘋方', sans-serif;
 }
 
 h3, p {
@@ -34,17 +34,19 @@ h3, p {
 }
 
 .intro > a {
-
     color: var(--clr-lightest);
 }
 
 .intro > a:hover {
     color: var(--clr-background);
     background-color: var(--clr-beige);
+    text-decoration: none;
 }
 
 .introLink {
+    display: inline-block;
     padding: 4px;
+    white-space: nowrap;
 }
 
 .bird-list {
