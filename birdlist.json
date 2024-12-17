@@ -344,7 +344,7 @@
     "Alternative scientific name": "",
     "Notes": "",
     "seenIn": {
-      "nl": false,
+      "nl": true,
       "tw": false,
       "else": false
     },
@@ -3599,7 +3599,7 @@
     "Alternative scientific name": "",
     "Notes": "",
     "seenIn": {
-      "nl": false,
+      "nl": true,
       "tw": true,
       "else": false
     },
@@ -5134,7 +5134,7 @@
     "seenIn": {
       "nl": true,
       "tw": false,
-      "else": false
+      "else": true
     },
     "photo": {
       "photoURL": "https://live.staticflickr.com/65535/53644513093_7c3462a404.jpg",
